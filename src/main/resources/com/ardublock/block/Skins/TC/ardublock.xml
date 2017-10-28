@@ -5112,7 +5112,7 @@
 			</BlockConnectors>		
 		</BlockGenus>
 		
-		<BlockGenus name="DuinoEDU_notequal" kind="data" color="214 169 54" initlabel="bg.DuinoEDU_notequal" editable-label="no">
+		<BlockGenus name="DuinoEDU_not_equal" kind="data" color="214 169 54" initlabel="bg.DuinoEDU_not_equal" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="boolean" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>		
@@ -9154,7 +9154,7 @@
 		</BlockFamily>
 		<BlockFamily>
 			<FamilyMember>DuinoEDU_equal</FamilyMember>
-			<FamilyMember>DuinoEDU_notequal</FamilyMember>
+			<FamilyMember>DuinoEDU_not_equal</FamilyMember>
 		</BlockFamily>	
 		<BlockFamily>
 			<FamilyMember>DuinoEDU_Rfid_Write</FamilyMember>
@@ -9615,7 +9615,7 @@
 			    <BlockGenusMember>trigger_greater</BlockGenusMember>
 			    <BlockGenusMember>trigger_less</BlockGenusMember>		    
 			</BlockDrawer>
-			 <!--   -->-->
+			 <!--   -->
 			<!-- littlebits -->
 			<!-- Highclare -->
 			<BlockDrawer button-color="93 13 125" name="bd.littlebits">
@@ -9652,7 +9652,7 @@
 			    <BlockGenusMember>little_bits_vibration_motor</BlockGenusMember>
 			    <BlockGenusMember>little_bits_synthspeaker</BlockGenusMember>
 			</BlockDrawer>
-			<!--   -->-->
+			<!--   -->
 			
 			<!-- keenlon -->
 			<!-- Highclare 	 -->	
@@ -9727,7 +9727,7 @@
 			 -->
 			<!-- Shapes are automatically loaded as blocks in the Shapes drawer (see slcodeblocks.ShapeBlocksGenerator for details) -->
 			<!-- Sound blocks reside in the auto-generated String drawer. (see slcodeblocks.SoundBlocksGenerator for details) -->
-		</BlockDrawerSet>
+		</BlockDrawerSet>		
 	</BlockDrawerSets>
 
 	<Pages drawer-with-page="yes">

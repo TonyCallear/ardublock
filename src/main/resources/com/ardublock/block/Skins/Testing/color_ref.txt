@@ -3,6 +3,7 @@
 	<!-- and Material Design Color Chart for inspiration					 -->
 	
 	<!-- Task Button 			13 71 161 		-->
+	<!-- Scoop Button 			13 71 161 		-->
 	<!-- Task Blocks Major  	0 0 205			-->
 	<!-- Task Blocks Minor  	26 97 218		-->
 	<!-- Task Blocks Sub		126 87 194		-->

@@ -4,19 +4,25 @@
 	
 	<!-- Task Button 			13 71 161 		-->
 	<!-- Scoop Button 			13 71 161 		-->
+	<!-- Pins Button 			183 28 28  		-->
+	<!-- Control Button 		251 192 45 		-->
+	<!-- Test Button			239 108 0  		-->
+	<!-- Communication Button	121 85 72 		-->
+	<!-- Arrays Button??		128 222 234		-->
+	<!-- Storage Button		    0 77 64			-->
+	
 	<!-- Task Blocks Major  	0 0 205			-->
 	<!-- Task Blocks Minor  	26 97 218		-->
 	<!-- Task Blocks Sub		126 87 194		-->
-	<!-- Control Button 		251 192 45 		-->
-	<!-- Control Blocks Major	249 168 37 		-->
+	
+	<!-- Control Blocks SubRef	179, 157, 219	-->	
 	<!-- Control Blocks Halts	255 128 0  		-->
-	<!-- Control Blocks Minor   255, 202, 40 	-->
-	<!-- Control Blocks SubRef	179, 157, 219	-->
+	<!-- Control Blocks Major	249 168 37 		-->
+	<!-- Control Blocks Minor   255 202 40 	-->
+	
 	<!-- Pins Blocks Inputs		244 67 54  		-->
-	<!-- Pins Button 			183 28 28  		-->
 	<!-- Pins Blocks Outputs	213 0 0    		-->
-	<!-- Pins Blocks Inputs		244 67 54  		-->
-	<!-- Test Button			239 108 0  		-->
+
 	<!-- Test Blocks			230 81 0  		-->
 	<!-- Math Button			27 94 32  		-->
 	<!-- Math Blocks			230 81 0  		-->
@@ -27,16 +33,15 @@
 	<!-- Var Blocks Lng Const	123 31 162 		-->
 	<!-- Var Blocks Digital		153 102 204		-->
 	<!-- Var Blocks Dig Const	204 153 255		-->
-	<!-- Var Blocks Decimal		51 153 255 		-->
+	<!-- Var Blocks Double		51 153 255 		-->
 	<!-- Var Blocks Dec Const	123 31 162 		-->
 	<!-- Var Blocks Digital		153 102 204		-->
 	<!-- Var Blocks Dig Const	204 153 255		-->
 	<!-- Var Blocks Char		0 137 123		-->
 	<!-- Var Blocks Char Const	77 182 172		-->
-	<!-- Communication Button	121 85 72 		-->
+	
 	<!-- Communication Blocks	109 76 65		-->
-	<!-- Arrays Button			128 222 234		-->
-	<!-- Storage Button		    0 77 64			-->
+
 	
 
-	<!-- Control Blocks SubRef	179, 157, 219	-->
+	

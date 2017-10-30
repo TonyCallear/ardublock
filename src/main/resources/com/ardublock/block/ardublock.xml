@@ -8760,62 +8760,118 @@
 				</Image>
 			</Images>
 			</BlockGenus>
+        
 		<!--**************************************Adafruit*********************************** -->
-		<BlockGenus name="ada_dc_motor_fwd" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor_fwd">
-			<description>
-				<text>Adafruit DC motor</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
-					<DefaultArg genus-name="number" label="1" />
-				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
-					<DefaultArg genus-name="number" label="255" />
-				</BlockConnector>
-			</BlockConnectors>
-			<!--<Images>
-				 <Image>
-					<FileLocation>com/ardublock/block/bulk/moteur-dc-fwd.jpg</FileLocation>
-				</Image> 
-			</Images> -->
-		</BlockGenus>
-		<BlockGenus name="ada_dc_motor_bwd" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor_bwd">
-			<description>
-				<text>Adafruit DC motor</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
-					<DefaultArg genus-name="number" label="1" />
-				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
-					<DefaultArg genus-name="number" label="255" />
-				</BlockConnector>
-			</BlockConnectors>
-			<!-- <Images>
-				<Image>
-					<FileLocation>com/ardublock/block/bulk/moteur-dc-bwd.jpg</FileLocation>
-				</Image> 
-			</Images> -->
-		</BlockGenus>
-		<BlockGenus name="ada_dc_motor_release" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor_release">
-			<description>
-				<text>Adafruit DC motor</text>
-			</description>
-			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
-					<DefaultArg genus-name="number" label="1" />
-				</BlockConnector>
-				<BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
-					<DefaultArg genus-name="number" label="255" />
-				</BlockConnector>
-			</BlockConnectors>
-			<!-- <Images>
-				 <Image>
-					<FileLocation>com/ardublock/block/bulk/moteur-dc-release.jpg</FileLocation>
-				</Image> 
-			</Images> -->
-		</BlockGenus>
-		
+        <BlockGenus name="ada_dc_motor_fwd" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor_fwd">
+            <description>
+                <text>FORWARD</text>
+            </description>
+            <BlockConnectors>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
+                    <DefaultArg genus-name="number" label="1" />
+                </BlockConnector>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
+                    <DefaultArg genus-name="number" label="255" />
+                </BlockConnector>
+            </BlockConnectors>
+            <Images>
+                <Image>
+                    <FileLocation>com/ardublock/block/bulk/moteur-dc-fwd.jpg</FileLocation>
+                </Image>
+            </Images>
+        </BlockGenus>
+        <BlockGenus name="ada_dc_motor_bwd" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor_bwd">
+            <description>
+                <text>BACKWARD</text>
+            </description>
+            <BlockConnectors>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
+                    <DefaultArg genus-name="number" label="1" />
+                </BlockConnector>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
+                    <DefaultArg genus-name="number" label="255" />
+                </BlockConnector>
+            </BlockConnectors>
+            <Images>
+                <Image>
+                    <FileLocation>com/ardublock/block/bulk/moteur-dc-bwd.jpg</FileLocation>
+                </Image>
+            </Images>
+        </BlockGenus>
+        <BlockGenus name="ada_dc_motor_release" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor_release">
+            <description>
+                <text>RELEASE</text>
+            </description>
+            <BlockConnectors>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
+                    <DefaultArg genus-name="number" label="1" />
+                </BlockConnector>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
+                    <DefaultArg genus-name="number" label="255" />
+                </BlockConnector>
+            </BlockConnectors>
+            <Images>
+                <Image>
+                    <FileLocation>com/ardublock/block/bulk/moteur-dc-release.jpg</FileLocation>
+                </Image> 
+            </Images>
+        </BlockGenus>
+        
+        <BlockGenus name="ada_dc_motor2_fwd" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor2_fwd">
+            <description>
+                <text>FORWARD</text>
+            </description>
+            <BlockConnectors>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
+                    <DefaultArg genus-name="number" label="1" />
+                </BlockConnector>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
+                    <DefaultArg genus-name="number" label="255" />
+                </BlockConnector>
+            </BlockConnectors>
+            <Images>
+                <Image>
+                    <FileLocation>com/ardublock/block/bulk/moteur-dc-fwd.jpg</FileLocation>
+                </Image>
+            </Images>
+        </BlockGenus>
+        <BlockGenus name="ada_dc_motor2_bwd" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor2_bwd">
+            <description>
+                <text>BACKWARD</text>
+            </description>
+            <BlockConnectors>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
+                    <DefaultArg genus-name="number" label="1" />
+                </BlockConnector>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
+                    <DefaultArg genus-name="number" label="255" />
+                </BlockConnector>
+            </BlockConnectors>
+            <Images>
+                <Image>
+                    <FileLocation>com/ardublock/block/bulk/moteur-dc-bwd.jpg</FileLocation>
+                </Image>
+            </Images>
+        </BlockGenus>
+        <BlockGenus name="ada_dc_motor2_release" kind="command" color="216 5 10" initlabel="bg.ada_dc_motor2_release">
+            <description>
+                <text>RELEASE</text>
+            </description>
+            <BlockConnectors>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_channel">
+                    <DefaultArg genus-name="number" label="1" />
+                </BlockConnector>
+                <BlockConnector connector-type="number" connector-kind="socket" label="bc.motor_speed">
+                    <DefaultArg genus-name="number" label="255" />
+                </BlockConnector>
+            </BlockConnectors>
+            <Images>
+                <Image>
+                    <FileLocation>com/ardublock/block/bulk/moteur-dc-release.jpg</FileLocation>
+                </Image> 
+            </Images>
+        </BlockGenus>
+        
 		<BlockGenus name="ada_neopixel_NEO_KHZ800" kind="data" color="214 169 54" initlabel="bg.ada_neopixel_NEO_KHZ800" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
@@ -8954,7 +9010,8 @@
 				<FileLocation>com/ardublock/block/adafruit/neopixel.png</FileLocation>
 				</Image>
 			</Images>
-		</BlockGenus>					
+		</BlockGenus>
+        
 		<!--***Makeblock***-->
 		<BlockGenus name="me_ultrasonic_sensor" kind="data" color="0 177 236" initlabel="bg.me_ultrasonic_sensor">
 			<description>
@@ -11309,11 +11366,16 @@
 			<FamilyMember>panda_o4</FamilyMember>
 			<FamilyMember>panda_o5</FamilyMember>
 		</BlockFamily>
-		<BlockFamily>
-			<FamilyMember>ada_dc_motor_fwd</FamilyMember>
-			<FamilyMember>ada_dc_motor_bwd</FamilyMember>
-			<FamilyMember>ada_dc_motor_release</FamilyMember>
-		</BlockFamily>
+        <BlockFamily>
+            <FamilyMember>ada_dc_motor_fwd</FamilyMember>
+            <FamilyMember>ada_dc_motor_bwd</FamilyMember>
+            <FamilyMember>ada_dc_motor_release</FamilyMember>
+        </BlockFamily>
+        <BlockFamily>
+            <FamilyMember>ada_dc_motor2_fwd</FamilyMember>
+            <FamilyMember>ada_dc_motor2_bwd</FamilyMember>
+            <FamilyMember>ada_dc_motor2_release</FamilyMember>
+        </BlockFamily>
 		<BlockFamily>
 			<FamilyMember>ada_neopixel_NEO_GRB</FamilyMember>
 			<FamilyMember>ada_neopixel_NEO_RGB</FamilyMember>
@@ -11559,6 +11621,7 @@
 			<FamilyMember>DuinoEDU_A15</FamilyMember>
 		</BlockFamily>
 		<BlockFamily>
+<<<<<<< HEAD
 			<FamilyMember>DuinoEDU_IRREMOTE_MEMORISER_TOUCHE</FamilyMember>
 			<FamilyMember>DuinoEDU_IRREMOTE_NE_PAS_MEMORISER</FamilyMember>
 			<FamilyMember>DuinoEDU_IRREMOTE_MEMORISER_200_MS</FamilyMember>
@@ -11705,6 +11768,8 @@
 			<FamilyMember>ESPLORA_CS</FamilyMember>
 		</BlockFamily>
 		<BlockFamily>
+=======
+>>>>>>> 96ac22ed612b9655d680f26e168ea5915a8eb972
 			<FamilyMember>Midi_C</FamilyMember>
 			<FamilyMember>Midi_CS</FamilyMember>
 			<FamilyMember>Midi_D</FamilyMember>
@@ -12122,10 +12187,13 @@
 			<BlockGenusMember>Esplora_File_Close</BlockGenusMember>
 			</BlockDrawer>
 			<BlockDrawer button-color="216 5 10" name="bd.adafruit" type="factory">
-				<BlockGenusMember>ada_dc_motor_fwd</BlockGenusMember>
-				<BlockGenusMember>ada_dc_motor_bwd</BlockGenusMember>
-				<BlockGenusMember>ada_dc_motor_release</BlockGenusMember>
-				<BlockGenusMember>ada_neopixel_init</BlockGenusMember>	
+                <BlockGenusMember>ada_dc_motor_fwd</BlockGenusMember>
+                <BlockGenusMember>ada_dc_motor_bwd</BlockGenusMember>
+                <BlockGenusMember>ada_dc_motor_release</BlockGenusMember>
+                <BlockGenusMember>ada_dc_motor2_fwd</BlockGenusMember>
+                <BlockGenusMember>ada_dc_motor2_bwd</BlockGenusMember>
+                <BlockGenusMember>ada_dc_motor2_release</BlockGenusMember>
+				<BlockGenusMember>ada_neopixel_init</BlockGenusMember>
 				<BlockGenusMember>ada_neopixel_pixel_colorRGB</BlockGenusMember>
 				<BlockGenusMember>ada_neopixel_show</BlockGenusMember>	
 				<BlockGenusMember>ada_neopixel_Brightness</BlockGenusMember>

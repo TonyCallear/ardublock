@@ -32,7 +32,7 @@
 		
 		<BlockGenus name="program" kind="command" color="0 0 205" initlabel="bg.program" is-starter="yes" is-terminator="yes" label-unique="no">
 			<description>
-				<text>this is the loop of the arduino</text>
+				<text>Main task - with both Setup and Loop</text>
 				<arg-description n="1" name="setup">
 					A list of commands to run first, and once only.
 				</arg-description>
@@ -48,7 +48,7 @@
 		
 		<BlockGenus name="loop" kind="command" color="0 0 205" initlabel="bg.loop" is-starter="yes" is-terminator="yes" label-unique="yes">
 			<description>
-				<text>this is the loop of the arduino</text>
+				<text>Main task - with Loop only</text>
 				<arg-description n="2" name="start">
 					A list of commands to repeat forever.
 				</arg-description>
@@ -66,7 +66,7 @@
 		
 		<BlockGenus name="scoop_task" kind="command" color="26 97 218" initlabel="bg.program" is-starter="yes" is-terminator="yes" label-unique="yes">
 			<description>
-				<text>this is the loop of the arduino</text>
+				<text>Multitask - With both Setup and Loop</text>
 				<arg-description n="1" name="setup">
 					A list of commands to run first, and once only.
 				</arg-description>
@@ -82,7 +82,7 @@
 		
 		<BlockGenus name="scoop_loop" kind="command" color="26 97 218" initlabel="bg.loop" is-starter="yes" is-terminator="yes" label-unique="yes">
 			<description>
-				<text>this is the loop of the arduino</text>
+				<text>Multitask - With Loop only</text>
 				<arg-description n="2" name="start">
 					A list of commands to repeat forever.
 				</arg-description>
@@ -97,7 +97,7 @@
 		
 		<BlockGenus name="subroutine" kind="command" color="126 87 194" initlabel="bg.subroutine" is-starter="yes" is-terminator="yes" label-unique="yes" editable-label="yes">
 			<description>
-				<text>subroutine</text>
+				<text>Define Subroutine</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector label="bc.commands" connector-type="cmd" connector-kind="socket" />
@@ -105,10 +105,13 @@
 		</BlockGenus>
 		<BlockGenus name="subroutine-ref" kind="command" color="179 157 219" initlabel="bg.subroutine" editable-label="yes">
 			<description>
-				<text>invoke subroutine</text>
+				<text>Invoke Subroutine</text>
 			</description>
 		</BlockGenus>
 		<BlockGenus name="subroutine_var" kind="command" color="126 87 194" initlabel="bg.subroutine_var" is-starter="yes" is-terminator="yes" label-unique="yes" editable-label="yes">
+			<description>
+				<text>Define Subroutine - Accept a value</text>
+			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="">
 					<DefaultArg genus-name="ref_var" label="variable_transmise" />
@@ -117,6 +120,9 @@
 			</BlockConnectors>
 		</BlockGenus>
 		<BlockGenus name="subroutine-ref_var" kind="command" color="179 157 219" initlabel="bg.subroutine_var" editable-label="yes">
+			<description>
+				<text>Invoke Subroutine - Pass a value</text>
+			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.transmit">
 					<DefaultArg genus-name="number" label="2" />
@@ -134,7 +140,7 @@
 		
 		<BlockGenus name="delay" kind="command" color="255 128 0" initlabel="bg.delay">
 			<description>
-				<text>program delay in x milliseconds</text>
+				<text>Stop ALL tasks for x milliseconds</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.milliseconds">
@@ -145,7 +151,7 @@
 
 		<BlockGenus name="delay_microseconds" kind="command" color="255 128 0" initlabel="bg.delay_microseconds">
 			<description>
-				<text>program delay in x milliseconds</text>
+				<text>Stop ALL tasks for x microseconds</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.microseconds">
@@ -156,7 +162,7 @@
 		
 		<BlockGenus name="scoop_sleep" kind="command" color="255 128 0" initlabel="bg.scoop_sleep">
 			<description>
-				<text>program sleep in x milliseconds</text>
+				<text>Sleep this Multitask only in x milliseconds</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="socket" label="bc.milliseconds">
@@ -167,7 +173,7 @@
 		
 		<BlockGenus name="scoop_event_low" kind="data" color="26 97 218" initlabel="bg.scoop_event_low">
 			<description>
-				<text>event flag</text>
+				<text>Pin event flag (multitask)</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
@@ -175,7 +181,7 @@
 		</BlockGenus>
 		<BlockGenus name="scoop_event_high" kind="data" color="26 97 218" initlabel="bg.scoop_event_high">
 			<description>
-				<text>event flag</text>
+				<text>Pin event flag (multitask)</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
@@ -183,7 +189,7 @@
 		</BlockGenus>
 		<BlockGenus name="scoop_event_falling" kind="data" color="26 97 218" initlabel="bg.scoop_event_falling">
 			<description>
-				<text>event flag</text>
+				<text>Pin event flag (multitask)</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
@@ -191,7 +197,7 @@
 		</BlockGenus>
 		<BlockGenus name="scoop_event_rising" kind="data" color="26 97 218" initlabel="bg.scoop_event_rising">
 			<description>
-				<text>event flag</text>
+				<text>Pin event flag (multitask)</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
@@ -199,7 +205,7 @@
 		</BlockGenus>
 		<BlockGenus name="scoop_event_change" kind="data" color="26 97 218" initlabel="bg.scoop_event_change">
 			<description>
-				<text>event flag</text>
+				<text>Pin event flag (multitask)</text>
 			</description>
 			<BlockConnectors>
 				<BlockConnector connector-type="number" connector-kind="plug" position-type="mirror" />
@@ -208,7 +214,7 @@
 
 		<BlockGenus name="scoop_pin_event" kind="command" color="26 97 218" initlabel="bg.scoop_pin_event" is-starter="yes" is-terminator="yes" label-unique="yes">
 			<description>
-				<text>SCoop Event on pin</text>
+				<text>Pin Event (multitask)</text>
 				<arg-description n="1" name="pin">
 					Pin number to watch.
 				</arg-description>
@@ -11792,6 +11798,7 @@
 			    <BlockGenusMember>program</BlockGenusMember>
 				<BlockGenusMember>loop</BlockGenusMember>
 				<BlockGenusMember>subroutine</BlockGenusMember>
+				<BlockGenusMember>subroutine-ref</BlockGenusMember>
 				<BlockGenusMember>subroutine_var</BlockGenusMember>
 				<BlockGenusMember>subroutine-ref_var</BlockGenusMember>
 			    <BlockGenusMember>scoop_task</BlockGenusMember>
@@ -11807,7 +11814,6 @@
 				<BlockGenusMember>delay</BlockGenusMember>
 				<BlockGenusMember>delay_microseconds</BlockGenusMember>
 				<BlockGenusMember>scoop_sleep</BlockGenusMember>
-				<BlockGenusMember>subroutine-ref</BlockGenusMember>
 				<BlockGenusMember>if</BlockGenusMember>
 				<BlockGenusMember>ifelse</BlockGenusMember>
 				<BlockGenusMember>while</BlockGenusMember>

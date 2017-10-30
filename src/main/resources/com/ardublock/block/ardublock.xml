@@ -11621,7 +11621,7 @@
 			<FamilyMember>DuinoEDU_A15</FamilyMember>
 		</BlockFamily>
 		<BlockFamily>
-<<<<<<< HEAD
+<!--<<<<<<< HEAD   Can't be the fix - can it?-->
 			<FamilyMember>DuinoEDU_IRREMOTE_MEMORISER_TOUCHE</FamilyMember>
 			<FamilyMember>DuinoEDU_IRREMOTE_NE_PAS_MEMORISER</FamilyMember>
 			<FamilyMember>DuinoEDU_IRREMOTE_MEMORISER_200_MS</FamilyMember>
@@ -11768,8 +11768,8 @@
 			<FamilyMember>ESPLORA_CS</FamilyMember>
 		</BlockFamily>
 		<BlockFamily>
-=======
->>>>>>> 96ac22ed612b9655d680f26e168ea5915a8eb972
+<!-- =======
+>>>>>>> 96ac22ed612b9655d680f26e168ea5915a8eb972   Can't be the fix - can it? -->
 			<FamilyMember>Midi_C</FamilyMember>
 			<FamilyMember>Midi_CS</FamilyMember>
 			<FamilyMember>Midi_D</FamilyMember>

@@ -11983,7 +11983,8 @@
 
 <!-- ******************** BlockDrawerSets specific hardware manufacturer section *************** -->
 <!-- ****** Avoid comments in this section else 'commenting out' to alter the GUI becomes difficult ****** -->
- 
+
+<!-- SLIM VERSION 
 			<BlockDrawer button-color="169 148 212" name="bd.network" type="factory">
 				<BlockGenusMember>bleshield</BlockGenusMember>
 				<BlockGenusMember>bleshield_available</BlockGenusMember>
@@ -12338,7 +12339,7 @@
 			<BlockDrawer button-color="152 29 155" name="bd.jerusalab" type="factory">
 				<BlockGenusMember>midi_command</BlockGenusMember>
 			</BlockDrawer>
-
+SLIM VERSION -->
 
 			<!-- Shapes are automatically loaded as blocks in the Shapes drawer (see slcodeblocks.ShapeBlocksGenerator for details) -->
 			<!-- Sound blocks reside in the auto-generated String drawer. (see slcodeblocks.SoundBlocksGenerator for details) -->

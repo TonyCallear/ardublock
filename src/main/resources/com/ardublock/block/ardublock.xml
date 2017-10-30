@@ -4114,7 +4114,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="df_dht11_temperature" kind="data" color="77 191 169" initlabel="bg.df_dht11_temperature">
+		<BlockGenus name="df_dht11_temperature" kind="data" color="205 133 63" initlabel="bg.df_dht11_temperature">
 			<description>
 				<text>Read analog value from pin</text>
 			</description>
@@ -4126,7 +4126,7 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="df_dht11_humidity" kind="data" color="77 191 169" initlabel="bg.df_dht11_humidity">
+		<BlockGenus name="df_dht11_humidity" kind="data" color="205 133 63" initlabel="bg.df_dht11_humidity">
 			<description>
 				<text>Read analog value from pin</text>
 			</description>

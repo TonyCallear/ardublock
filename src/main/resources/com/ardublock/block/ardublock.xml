@@ -12327,7 +12327,8 @@
 	<Pages drawer-with-page="yes">
 		<Page page-name="Main" page-width="400" page-color="128 128 128"/>
 	</Pages>
-
+		
+	<Typeblocking enabled ="yes" />
 	<TrashCan>
 		<OpenTrashImage>com/ardublock/block/trash_open.png</OpenTrashImage>
 		<ClosedTrashImage>com/ardublock/block/trash.png</ClosedTrashImage>

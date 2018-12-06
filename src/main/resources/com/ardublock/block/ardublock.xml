@@ -11879,6 +11879,7 @@
 				<BlockGenusMember>variable_number</BlockGenusMember>
 				<BlockGenusMember>setter_variable_number_unsigned_long</BlockGenusMember>
 				<BlockGenusMember>variable_number_unsigned_long</BlockGenusMember>
+				<BlockGenusMember>millis</BlockGenusMember>
 				<BlockGenusMember>setter_variable_digital</BlockGenusMember>
 				<BlockGenusMember>variable_digital</BlockGenusMember>
 				<BlockGenusMember>digital-low</BlockGenusMember>
@@ -12352,6 +12353,8 @@ SLIM VERSION -->
 		<Page page-name="Main" page-width="400" page-color="240 240 240"/>
 	</Pages>
 
+	<Typeblocking enabled="yes" />
+	
 	<TrashCan>
 		<OpenTrashImage>com/ardublock/block/trash_open.png</OpenTrashImage>
 		<ClosedTrashImage>com/ardublock/block/trash.png</ClosedTrashImage>
